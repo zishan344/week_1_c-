@@ -14,10 +14,10 @@ int main(void)
   int a;
   int b;
   cin >> a >> b;
-  /*   int mx = max(a, b);
-    int mn = min(a, b); */
+  int mx = max(a, b);
+  int mn = min(a, b);
   // my_swap(&a, &b);
-  swap(a, b);
-  cout << a << " " << b;
+  //  swap(a, b);
+  cout << mx;
   return 0;
 };
